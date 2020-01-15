@@ -1,8 +1,5 @@
 # SorEX
-Contributors :
--Francis Murray
--Baptiste Pires
--Massyl DJEMAI
+Contributors: Massyl Djemai, Baptiste Pires, Francis Murray
 
-Website : https://sorex-blockchain.000webhostapp.com/
-Video presentation: https://youtu.be/sDL11XRyIXA
+* Website : https://sorex-blockchain.000webhostapp.com/
+* Video presentation: https://youtu.be/t8b_qAfMoYY
