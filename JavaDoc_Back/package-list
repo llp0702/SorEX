@@ -1,0 +1,6 @@
+com.sorex.sorex
+com.sorex.sorex.controllers
+com.sorex.sorex.entities.blockchain
+com.sorex.sorex.entities.model
+com.sorex.sorex.repository
+com.sorex.sorex.services
