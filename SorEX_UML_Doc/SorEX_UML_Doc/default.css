@@ -1,0 +1,493 @@
+/* CSS Document */
+*:before, *:after {
+  box-sizing: border-box;
+}
+html {
+	font-size: 100%;
+}
+
+html, body {
+  height:100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  #background-color: #ebebeb;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ color: #955;
+}
+
+a, a:hover {
+  color: #955;
+}
+
+a:visited {
+}
+
+img {
+  border: none;
+}
+
+a img {
+  border: none;
+}
+
+a.openImage {
+  float:right;
+}
+
+#container {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+  font-size: 10pt;
+}
+
+#content {
+  margin: 0 auto;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+div #page {
+  white-space: pre-wrap;
+}
+
+#header {
+  height: 85px;
+  background-image: url(img/banner-bkg.png);
+  background-repeat: repeat;
+  background-position: left top;
+  /*border-top: 2px solid #333;
+  border-bottom: 2px solid #333;*/
+}
+
+#header #logo {
+  position: relative;
+  top: 15px;
+  padding-left: 30px;
+}
+
+#header h1.documentTitle {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-left: 250px;
+  bottom: 40px;
+  color: white;
+}
+
+#header h2.documentType {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-left: 250px;
+  bottom: 40px;
+  color: white;
+}
+
+#navbar {
+  width: 100%
+  height: 45px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#navbar ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 0;
+  overflow: hidden;
+}
+
+#navbar ul li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  width: 33%;
+  float: left;
+}
+
+#navbar ul li.disable {
+  color: #aaa;
+}
+
+#navbar ul li a {
+  text-decoration:none;
+  color: #955;
+}
+
+#navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+#navbar ul li#prev {
+  text-align: left;  
+}
+
+#navbar ul li#next {
+  text-align: right;
+}
+
+#navbar ul li#summary {
+  text-align: center;
+}
+
+.spacer {
+  clear: both;
+}
+
+#page {
+  padding-top: 25px;
+}
+
+#footer {
+  margin: 20px auto;
+  padding-top: 25px;
+  text-align: center;
+  width:100%;
+  border-top: 1px solid #ccc;
+  font-family: helvetica;
+  font-size: 8pt;
+  color: #666;
+}
+
+#footer a {
+  color: #999;
+}
+
+#docProps {
+  font-size: 11px;
+  margin:0;
+  padding:5px;
+  list-style-type: none;
+}
+
+#docProps li.property {
+  padding-top: 5px;
+  font-weight: bold;
+  color: #955;
+
+}
+
+#docProps li.value {
+  color: #666;
+}
+
+#shortcuts {
+  margin:0;
+  padding-top:10px;
+  padding-left:20px;
+}
+
+#shortcuts li {
+  font-size: 11px;
+  padding-bottom: 5px;
+  list-style-image: url(img/arrow.png);
+  
+}
+
+#shortcuts li a {
+  color: #666;
+  text-decoration: none;
+}
+
+#shortcuts li a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+#summary {
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+#summary li {
+  padding-bottom: 5px;
+}
+
+#summary li.section {
+  padding-top: 10px;
+  font-weight: bold;
+  color: #955;
+}
+
+#summary li.section a {
+  color: #955;
+}
+
+#summary li a {
+  color: #666;
+  text-decoration: none;
+}
+
+#summary li a:hover {
+  text-decoration: underline;
+}
+
+.sideTitle {
+  margin:30px 5px 0 5px;
+  padding:0;
+  border-bottom: 1px solid #ccc;
+}
+
+.clear {
+  clear: both;
+}
+
+caption {
+  caption-side:bottom;
+}
+
+table.ListeclaireAccent1 {
+  margin-top:10px;
+  margin-left: 20px;
+  font-size: 11px;
+  color: #666;
+  width: 90%;
+  border: 1px solid #999;
+}
+
+table.ListeclaireAccent1 tr th {
+  font-size: 11px;
+  color: #fff;
+  background-color: #955;
+  padding: 3px;
+}
+
+table.ListeclaireAccent1 td {
+  padding: 5px;
+}
+
+table.ListeclaireAccent1 tr.even{
+
+}
+
+table.ListeclaireAccent1 tr.odd{
+	background-color: #ddd;
+}
+
+table.TableauNormal {
+width: 100%;
+caption-side: top;
+}
+
+table.Tramemoyenne1Accent1 {
+width: 100%;
+caption-side: top;
+border-collapse: collapse;
+border-spacing: 0pt;
+border-style: solid;
+border-width: 2pt; /* les bordures de cellules l'emporteraient si celles du tableau avaient la meme epaisseur*/
+border-color: #BF1F1F;
+}
+
+table.Tramemoyenne1Accent1 th{
+padding: 2pt;
+font-style: bold;
+color: white;
+background-color: #BF1F1F;
+border-right-style: solid;
+border-right-width: 1pt;
+border-right-color: gray;
+}
+
+table.Tramemoyenne1Accent1 td{
+padding: 0pt;
+font-style: normal;
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: gray;
+border-right-style: solid;
+border-right-width: 1pt;
+border-right-color: gray;
+}
+
+table.TrameclaireAccent1 {
+width: 100%;
+caption-side: top;
+border-collapse: collapse;
+border-spacing: 0pt;
+border-style: solid;
+border-color: #BF1F1F;
+border-top-width: 1pt;
+border-bottom-width: 1pt;
+border-right-width: 0pt;
+border-left-width: 0pt;
+}
+
+table.TrameclaireAccent1 th{
+padding: 1pt;
+font-style: bold;
+color: #640000;
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: #BF1F1F;
+}
+
+table.TrameclaireAccent1 tr.even{
+color: #640000;
+background-color: #E88E8C;
+}
+
+table.TrameclaireAccent1 tr.odd{
+color: #640000;
+}
+
+div.Titre1 {
+  padding-top: 25px;
+  color: #955;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+div.Titre2 {
+  padding-top: 30px;
+  color: #955;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+div.Titre3 {
+  padding-top: 30px;
+  color: #955;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+div.Titre4 {
+  padding-top: 30px;
+  color: #955;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+div.Titre5 {
+  padding-top: 30px;
+  color: #955;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+div.Titre6 {
+  padding-top: 30px;
+  color: #955;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+div.Titre7 {
+  padding-top: 30px;
+  color: #955;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+div.Titre8 {
+  padding-top: 30px;
+  color: #955;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+div.Titre9 {
+  padding-top: 30px;
+  color: #955;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+div.Soustitre {
+  padding-top: 20px;
+  color: #955;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.Sansinterligne {
+  color: #666;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.Emphaseple {
+font-style: italic;
+color: #999999;
+}
+
+div.Legende {
+  margin-top: 15px;
+  color: #333;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#page img {
+  margin-top: 20px;
+}
+
+#summary img {
+  vertical-align: bottom;
+  margin-top: 0px;
+}
+
+li {
+ background-image: none;
+ background-repeat: no-repeat;
+ background-position: 0 0.32em;
+ padding-left: 15px;
+} 
+
+#sidebar_frame {
+	width: 100%;
+	height: 100%;
+}
+
+#container , #content {height: 100%;}
+
+#gTable {
+	position: absolute;
+	top: 86px;	
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+#tSidebar {
+	width: 30%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+#tMainArea {
+	position: absolute;
+	top: 0;
+	left: 30%;
+	padding: 30px; 
+	right: 0;
+}
+
+#divLoading {
+	display:none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#sidebar_frame {
+	overflow: auto;
+}
+
+#divFrameHolder {
+	width: 100%;
+	height: 100%;
+}

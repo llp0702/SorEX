@@ -1,0 +1,107 @@
+/* CSS Document */
+
+html {
+	font-size: 100%;
+}
+
+html, body {
+  height:100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto
+}
+
+body {
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ color: #955;                                 
+}
+
+a {cursor: pointer;}
+
+a, a:hover {
+  color: #955;       
+}
+
+a:visited {
+}
+
+img {
+  border: none;
+}
+
+a img {
+  border: none;
+}
+
+a.openImage {
+  float:right;
+}
+ 
+#page {
+   padding-top: 25px;
+}
+
+.sideTitle {
+  margin:30px 5px 0 5px;
+  padding:0;
+  border-bottom: 1px solid #ccc;
+}
+
+.clear {
+  clear: both;
+}
+
+caption {
+  caption-side:bottom;
+}
+
+li {
+ list-style-type: none;
+ background-image: none;
+ background-repeat: no-repeat;
+ background-position: 0 0.32em;
+ padding-left: 15px;
+} 
+
+#browser {
+  margin-left: 0;                         
+  padding-left: 3px;
+}
+
+#browser li {
+  padding: 0;
+  padding-bottom: 2px;
+  margin: 0;  
+}
+
+#browser ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+#browser li.section {
+  padding-top: 1px;
+  color: #666;
+}
+
+#browser li a {
+  color: #666;
+  text-decoration: none;
+}
+
+#browser li a:hover {
+  text-decoration: underline;
+}
+
+#browser img {
+  vertical-align: bottom;    
+  margin-top: 0px;
+  margin-right: 1px;
+}
+#sidebar h1 {padding: 0px 10px;}
+#sidebar #browser {
+  display: block;
+}
