@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">SorEx</string>
+
+    <string name="menu_wallet">Wallet</string>
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">Close Navigation Drawer</string>
+    <string name="get_a_wallet">Get a wallet</string>
+    <string name="desc_get_a_wallet">With a wallet, you will be able to enjoy the whole app. With it, you can loan objects to other users and they can loan yours too. </string>
+    <string name="text_create_wallet">You can create a wallet thanks to a password. Becareful, once you have created your wallet, you wont be able to retrieve the password that created it. we HIGHLY recommand you to use a long hand hard password, it will be used to identify you in the system, if it\'s to easy to find, other users may finds and uses it.</string>
+    <string name="input_label">Password :</string>
+    <string name="label_name_wallet">Username :</string>
+    <string name="username_label">Hello</string>
+    <string name="exclamation">!</string>
+    <string name="info_balance">Your current balance is </string>
+    <string name="dot">.</string>
+    <string name="loading">Loading . . .</string>
+
+
+    <!-- INFOS FRAGMENT -->
+    <string name="fragment_info_title">About SorEx</string>
+    <string name="fragment_info_desc">SorEx is an app that allows users to loan their objects between each other. All trades make you earn or use SorEx, that is the crypto-currency used by the app.</string>
+    <string name="fragement_info_credit_tile">Credits</string>
+    <string name="francis">Murray Françis</string>
+    <string name="massyl">Djemai Massyl</string>
+    <string name="baptiste">Pires Baptiste</string>
+    <string name="fragment_info_dev">Developers :</string>
+    <string name="fragment_info_icn_graph">Icons and graphics :</string>
+    <string name="icon_coin">https://www.flaticon.com/authors/freepik</string>
+    <string name="icon_app">https://github.com/atomiclabs/cryptocurrency-icons</string>
+    <string name="font_credit">https://fonts.google.com/specimen/Montserrat</string>
+
+
+    <!--    ADD OFFER FRAGMENT -->
+    <string name="fragment_add_offer_title">Add an Item</string>
+    <string name="fragment_add_offer_name">Item\'s name</string>
+    <string name="fragment_add_offer_desc">Item\'s description</string>
+    <string name="fragment_add_offer_price">Item\'s price</string>
+    <string name="fragment_add_offer_btn_add">Add item</string>
+    <string name="add_offer_type">Kind of item</string>
+
+<!--    My offers Fragment -->
+    <string name="fragment_my_offers_btn_delete">Delete</string>
+    <string name="row_my_offer_txt_btn">delete</string>
+
+<!--    DIALOG LOAN -->
+    <string name="dialog_loan_title">Loan </string>
+    <string name="dialog_loan_item_name">Item name\'s :</string>
+    <string name="dialog_loan_item_price">Item price\'s:</string>
+    <string name="dialog_loan_nb_days">Number of days :</string>
+
+
+<!--    WALLET FRAGMENT -->
+    <string name="fragment_wallet_your_trans">3 of </string>
+
+<!--    My loans -->
+<!--    <string name=""-->
+</resources>

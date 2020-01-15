@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_folder"
+            android:title="@string/menu_wallet" />
+        <item
+            android:id="@+id/nav_del_wall"
+            android:icon="@drawable/ic_delete"
+            android:title="Suppr le wallet(dev_opt)"/>
+
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group_services">
+        <item
+            android:id="@+id/nav_all_offers"
+            android:icon="@drawable/ic_services"
+            android:title="All items" />
+
+        <item
+            android:id="@+id/nav_consult_reserved"
+            android:icon="@drawable/ic_consult"
+            android:title="My loans" />
+        <item
+            android:id="@+id/nav_add_offer"
+            android:icon="@drawable/ic_add"
+            android:title="Add an item" />
+        <item
+            android:id="@+id/nav_my_offers"
+            android:icon="@drawable/ic_consult_my_offer"
+            android:title="My items" />
+    </group>
+
+    <item android:id="@+id/nav_infos"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:title="About SorEx  "
+
+        />
+
+
+</menu>

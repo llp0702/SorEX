@@ -1,0 +1,67 @@
+<resources>
+
+<!--    SPLASH STYLE -->
+    <style name="splashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_layout</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/montserrat_fam</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="behindMenuItemLabel">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:drawableLeft">@drawable/ic_business_and_finance
+        </item>
+    </style>
+
+    <style name="coin_no_margin">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:drawableLeft">@drawable/ic_business_and_finance
+        </item>
+    </style>
+
+    <style name="coin_dialog">
+        <item name="android:drawableLeft">@drawable/ic_business_and_finance
+        </item>
+    </style>
+
+    <style name="text_title">
+        <item name="android:textColor">@color/txtRow</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="text_label">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/txtRow</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="wallet_txt">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+<!--    DIALOG LAYOUT-->
+    <style name="dialog_title">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
